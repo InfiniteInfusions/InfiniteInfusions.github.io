@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infinite Infusions | Plants. Knowledge. Wellbeing.</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Lato', sans-serif;
+            color: #364A3F;
+            background: #F5F0E8;
+            line-height: 1.7;
+        }
+
+        header {
+            background: #F5F0E8;
+            text-align: center;
+            padding: 45px 20px 25px;
+        }
+
+        .brand {
+            font-family: 'Playfair Display', serif;
+            letter-spacing: 6px;
+            font-size: 2.2rem;
+            font-weight: 500;
+        }
+
+        .tagline {
+            margin-top: 8px;
+            font-size: 0.9rem;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+        }
+
+        nav {
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            color: #364A3F;
+            text-decoration: none;
+            font-size: 0.85rem;
+            letter-spacing: 1.5px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            min-height: 520px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 70px 25px;
+            background: #DCE7D8;
+        }
+
+        .hero-content {
+            max-width: 800px;
+        }
+
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 4rem;
+            font-weight: 400;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 650px;
+            margin: 0 auto 35px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 13px 30px;
+            background: #364A3F;
+            color: white;
+            text-decoration: none;
+            letter-spacing: 1.5px;
+            font-size: 0.85rem;
+        }
+
+        section {
+            padding: 80px 25px;
+            text-align: center;
+        }
+
+        section h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            font-weight: 400;
+            margin-bottom: 20px;
+        }
+
+        .intro {
+            max-width: 750px;
+            margin: auto;
+            font-size: 1.05rem;
+        }
+
+        .categories {
+            background: #E9E2EE;
+        }
+
+        .category-grid {
+            max-width: 1000px;
+            margin: 45px auto 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 20px;
+        }
+
+        .category {
+            padding: 35px 20px;
+            background: #F5F0E8;
+        }
+
+        .category h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.4rem;
+            font-weight: 400;
+        }
+
+        .journal {
+            background: #F5F0E8;
+        }
+
+        footer {
+            background: #364A3F;
+            color: #F5F0E8;
+            text-align: center;
+            padding: 45px 20px;
+        }
+
+        footer h2 {
+            font-family: 'Playfair Display', serif;
+            font-weight: 400;
+            margin-bottom: 10px;
+        }
+
+        footer p {
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 600px) {
+            .hero h1 {
+                font-size: 2.8rem;
+            }
+
+            nav {
+                gap: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="brand">INFINITE INFUSIONS</div>
+    <div class="tagline">Plants. Knowledge. Wellbeing.</div>
+
+    <nav>
+        <a href="#home">HOME</a>
+        <a href="#explore">EXPLORE</a>
+        <a href="#learn">LEARN</a>
+        <a href="#library">HERBAL LIBRARY</a>
+        <a href="#journal">JOURNAL</a>
+        <a href="#about">ABOUT</a>
+        <a href="#shop">SHOP</a>
+    </nav>
+</header>
+
+<main>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Plants. Knowledge. Wellbeing.</h1>
+            <p>
+                Exploring the fascinating relationship between plants,
+                people and wellbeing through knowledge, tradition and nature.
+            </p>
+            <a class="button" href="#explore">EXPLORE</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>Welcome to Infinite Infusions</h2>
+        <p class="intro">
+            Infinite Infusions explores the fascinating relationship between
+            plants, people and wellbeing. Through knowledge, tradition and
+            nature, we explore ways that plants can nourish the body, mind and soul.
+        </p>
+    </section>
+
+    <section class="categories" id="explore">
+        <h2>Explore</h2>
+
+        <div class="category-grid">
+            <div class="category">
+                <h3>Naturopathy</h3>
+            </div>
+
+            <div class="category">
+                <h3>Herbalism</h3>
+            </div>
+
+            <div class="category">
+                <h3>Ayurveda</h3>
+            </div>
+
+            <div class="category">
+                <h3>Plants</h3>
+            </div>
+
+            <div class="category">
+                <h3>Infusions</h3>
+            </div>
+
+            <div class="category">
+                <h3>Growing</h3>
+            </div>
+        </div>
+    </section>
+
+    <section id="learn">
+        <h2>Learn</h2>
+        <p class="intro">
+            Discover the traditional knowledge, modern understanding and
+            fascinating stories behind plants and their relationship with us.
+        </p>
+    </section>
+
+    <section id="library" class="categories">
+        <h2>Herbal Library</h2>
+        <p class="intro">
+            A growing library of plants, herbs, their traditional uses,
+            properties and fascinating histories.
+        </p>
+    </section>
+
+    <section id="journal" class="journal">
+        <h2>The Journal</h2>
+        <p class="intro">
+            Thoughts, discoveries, growing adventures and explorations
+            into plants, wellbeing and the natural world.
+        </p>
+    </section>
+
+    <section id="shop" class="categories">
+        <h2>Apothecary</h2>
+        <p class="intro">
+            A space for thoughtfully created herbal products and infusions,
+            inspired by nature and traditional knowledge.
+        </p>
+    </section>
+
+</main>
+
+<footer>
+    <h2>Infinite Infusions</h2>
+    <p>Plants. Knowledge. Wellbeing.</p>
+</footer>
+
+</body>
+</html>
