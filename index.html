@@ -26,22 +26,27 @@
         header {
             background: #F5F0E8;
             text-align: center;
-            padding: 8px 20px 8px;
+            padding:45px 20px 25px;
+            position: relative;
         }
 
         .brand {
-            font-family: 'Playfair Display', serif;
+            font-family: 'Bookman Old Style', serif;
             letter-spacing: 6px;
             font-size: 2.2rem;
             font-weight: 500;
-            line height: 0;
         }
-.brand img {
-    width: 220px;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-}
+        .corner-logo {
+            position: absolute;
+            width:80px;
+            height: auto;
+            top: 20px;
+        }
+        .corner-logo.left{
+            left: 20px}
+        .corner-logo.right {
+            right: 20px;
+        } 
         .tagline {
             margin-top: 8px;
             font-size: 0.9rem;
@@ -182,7 +187,9 @@
 <body>
 
 <header>
-    <div class="brand"><img src="Infinite%20Infusions%20logo.svg" alt="Infinite Infusions"></div>
+    <img class"corner-logo left" src="Infinite%20Infusions%20logo.svg" alt="">
+    <img class"corner-logo right" src="Infinite%20Infusions%20logo.svg" alt="">
+    <div class="brand">Infinite Infusions</div>
     <div class="tagline">Plants. Knowledge. Wellbeing.</div>
 
     <nav>
