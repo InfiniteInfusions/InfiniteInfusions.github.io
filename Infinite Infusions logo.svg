@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   width="143.74451mm"
+   height="79.14006mm"
+   viewBox="0 0 143.7445 79.14006"
    version="1.1"
    id="svg1"
    xml:space="preserve"
@@ -25,8 +25,8 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="0.7712856"
-     inkscape:cx="409.70556"
-     inkscape:cy="565.93822"
+     inkscape:cx="261.90039"
+     inkscape:cy="144.56383"
      inkscape:window-width="1920"
      inkscape:window-height="991"
      inkscape:window-x="-9"
@@ -120,7 +120,8 @@
      inkscape:groupmode="layer"
      id="layer1"
      sodipodi:insensitive="true"
-     style="display:none"><image
+     style="display:none"
+     transform="translate(-39.055686,-111.59397)"><image
        width="164.21806"
        height="61.383335"
        preserveAspectRatio="none"
@@ -131,7 +132,8 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Infinite Infusions Logo"
-     style="display:inline"><path
+     style="display:inline"
+     transform="translate(-39.055686,-111.59397)"><path
        style="mix-blend-mode:normal;fill:none;fill-opacity:1;stroke:#364a3f;stroke-width:3.07234;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 72.891464,150.69302 c 1.117181,-1.26926 2.897736,-1.91908 4.56985,-1.6678 1.672114,0.25129 3.18302,1.39576 3.877789,2.93732 0.563849,1.25107 0.594084,2.71915 0.14902,4.01724 -0.445064,1.29808 -1.348918,2.4219 -2.481875,3.19619 -1.132956,0.77429 -2.486026,1.20524 -3.854806,1.30297 -1.368781,0.0977 -2.752023,-0.13108 -4.043796,-0.59415 -2.701794,-0.96853 -5.019352,-3.00536 -6.255713,-5.59556 -1.23636,-2.59021 -1.355456,-5.70711 -0.247772,-8.3549 1.201665,-2.87244 3.766549,-5.06563 6.689177,-6.13947 2.922627,-1.07384 6.167376,-1.09148 9.203295,-0.40004 6.071837,1.38288 11.146507,5.39076 16.153419,9.09352 5.381388,3.97969 10.933888,7.7278 16.634118,11.23561 9.19335,5.65741 19.2804,10.82368 30.07501,10.80403 6.10292,-0.0111 12.37894,-1.84397 16.84561,-6.00264 4.47773,-4.16897 6.77897,-10.49395 6.26454,-16.59032 -0.28393,-3.36476 -1.38221,-6.65785 -3.17416,-9.51987 -2.38078,-3.80248 -6.01858,-6.83346 -10.2456,-8.33655 -3.47179,-1.23454 -7.27985,-1.4319 -10.90035,-0.74674 -4.38775,0.83035 -8.44696,2.90735 -12.20177,5.32462 -4.41644,2.84321 -8.49419,6.17967 -12.45883,9.62501 -9.62262,8.36222 -18.907009,17.58766 -30.615155,22.63155 -5.651954,2.43487 -12.008814,3.81955 -17.984203,2.34717 -6.116841,-1.50724 -11.388616,-6.10727 -13.70165,-11.96708 -1.596691,-4.04504 -1.809756,-8.61677 -0.626375,-12.80143 1.672443,-5.91407 6.16275,-10.93763 11.805701,-13.37287 3.9787,-1.71703 8.455887,-2.18171 12.740339,-1.53233 8.006773,1.21356 14.91892,6.07672 21.462753,10.8474 8.60223,6.27132 17.18911,12.65399 26.63942,17.55495 3.16386,1.64079 6.44488,3.12044 9.92195,3.90287 3.47706,0.78243 7.18231,0.83752 10.5493,-0.33106 2.5912,-0.89932 4.94272,-2.53021 6.59384,-4.72039 1.65112,-2.19019 2.57737,-4.9417 2.46258,-7.68213 -0.0802,-1.91347 -0.66326,-3.80488 -1.68279,-5.42609 -1.01953,-1.62122 -2.47387,-2.96763 -4.1733,-3.85065 -2.037,-1.05843 -4.40682,-1.43883 -6.68385,-1.14764 -2.27703,0.29118 -4.45553,1.24288 -6.26553,2.65481 -1.37539,1.0729 -2.55927,2.43415 -3.22743,4.04549 -0.66815,1.61133 -0.7844,3.48651 -0.11606,5.09777 0.46587,1.12314 1.30319,2.08854 2.34917,2.70853 1.04599,0.61999 2.29482,0.89112 3.50373,0.76069 1.20891,-0.13044 2.37117,-0.66171 3.26083,-1.49055 0.88966,-0.82884 1.50178,-1.95063 1.71736,-3.14729"
        id="path32"
@@ -167,18 +169,18 @@
        transform="scale(0.7123223,1.4038589)"><tspan
          sodipodi:role="line"
          id="tspan3"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:43.51866666px;font-family:Georgia;-inkscape-font-specification:'Georgia, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#364a3f;fill-opacity:1;stroke:#364a3f;stroke-width:0.41;stroke-dasharray:0.82, 0.41, 0.205, 0.41;stroke-dashoffset:0;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:43.5187px;font-family:Georgia;-inkscape-font-specification:'Georgia, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#364a3f;fill-opacity:1;stroke:#364a3f;stroke-width:0.41;stroke-dasharray:0.82, 0.41, 0.205, 0.41;stroke-dashoffset:0;stroke-opacity:1"
          x="53.437763"
          y="121.24149">I </tspan></text><text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:43.5188px;font-family:Georgia;-inkscape-font-specification:'Georgia, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#364a3f;fill-opacity:1;stroke:#364a3f;stroke-width:0.411;stroke-dasharray:0.82199999,0.411,0.20549951,0.411;stroke-dashoffset:0;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:43.5188px;font-family:Georgia;-inkscape-font-specification:'Georgia, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#364a3f;fill-opacity:1;stroke:#364a3f;stroke-width:0.411;stroke-dasharray:0.822, 0.411, 0.2055, 0.411;stroke-dashoffset:0;stroke-opacity:1"
        x="240.12575"
        y="120.71719"
        id="text4"
        transform="scale(0.71025644,1.4079422)"><tspan
          sodipodi:role="line"
          id="tspan4"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:43.5188px;font-family:Georgia;-inkscape-font-specification:'Georgia, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#364a3f;fill-opacity:1;stroke:#364a3f;stroke-width:0.411;stroke-dasharray:0.82199999,0.411,0.20549951,0.411;stroke-dashoffset:0;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:43.5188px;font-family:Georgia;-inkscape-font-specification:'Georgia, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#364a3f;fill-opacity:1;stroke:#364a3f;stroke-width:0.411;stroke-dasharray:0.822, 0.411, 0.2055, 0.411;stroke-dashoffset:0;stroke-opacity:1"
          x="240.12575"
          y="120.71719">I </tspan></text><text
        xml:space="preserve"
