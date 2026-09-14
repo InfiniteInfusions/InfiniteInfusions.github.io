@@ -37,18 +37,14 @@
             font-weight: 500;
             text-transform: uppercase;
         }
-        .corner-logo {
-            position: absolute;
-            width: 70px;
-            height: 40px;
-            top:50%;
-            transform: translateY(-50%);
-            background-image: url("Infinite%20Infusions%20logo.svg");
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: contain;
-            z-index: 10;
-        }
+       .corner-logo {
+    position: absolute;
+    width: 70px;
+    height: auto;
+    top: 15px;
+    object-fit: contain;
+    z-index: 10;
+}
         .corner-logo.left {
             left: 20px;
         }
@@ -195,8 +191,8 @@
 <body>
 
 <header>
-    <div class"corner-logo left" ></div>
-    <div class"corner-logo right" ></div>
+<img class="corner-logo left" src="Infinite%20Infusions%20logo.svg" alt="">
+<img class="corner-logo right" src="Infinite%20Infusions%20logo.svg" alt="">
     <div class="brand">Infinite Infusions</div>
     <div class="tagline">Plants. Knowledge. Wellbeing.</div>
 
