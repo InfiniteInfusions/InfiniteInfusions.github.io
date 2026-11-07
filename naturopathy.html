@@ -14,16 +14,29 @@
             text-align: center;
         }
 
-        header {
-            padding: 50px 20px 30px;
-        }
+       header {
+    min-height: 330px;
+    padding: 35px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    background-image: url('naturopathy-banner.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
-        h1 {
-            font-family: 'Bookman Old Style', serif;
-            font-size: 3rem;
-            font-weight: 400;
-            letter-spacing: 4px;
-        }
+       h1 {
+    font-family: 'Bookman Old Style', serif;
+    font-size: clamp(2.3rem, 5vw, 3.6rem);
+    font-weight: 400;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #203B2B;
+    margin: 0 0 12px;
+    text-shadow: 0 1px 8px rgba(255, 253, 248, 0.6);
+}
 
         main {
             max-width: 850px;
