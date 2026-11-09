@@ -74,6 +74,34 @@ section p {
     line-height: 1.8;
     margin-bottom: 20px;
 }
+             .section-nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 8px;
+            background: #E9EBD9;
+            padding: 15px 20px;
+        }
+
+        .section-nav a {
+            flex: 1 1 120px;
+            text-align: center;
+            padding: 10px;
+            color: #364A3F;
+            font-family: 'Bookman Old Style', serif;
+            font-size: 1rem;
+            text-decoration: none;
+            border-right: 1px solid #C9CEBA;
+        }
+
+        .section-nav a:hover {
+            color: #8A9A70;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }   
     </style>
 </head>
 
@@ -82,6 +110,14 @@ section p {
     <header>
         <h1>Naturopathy</h1>
     </header>
+        <nav class="section-nav">
+        <a href="#overview">Overview</a>
+        <a href="#hydration">Hydration</a>
+        <a href="#digestion">Digestion</a>
+        <a href="#microbiome">Gut Microbiome</a>
+        <a href="#fibre">Fibre</a>
+        <a href="#wellbeing">Wellbeing</a>
+    </nav>
 
     <main>
         <section>
