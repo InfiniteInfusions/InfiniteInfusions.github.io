@@ -102,6 +102,59 @@ section p {
         html {
             scroll-behavior: smooth;
         }   
+
+    /* INTRODUCTION AND PHILOSOPHY */
+
+.intro-layout {
+    display: grid;
+    grid-template-columns: 1.2fr 0.9fr;
+    gap: 35px;
+    align-items: center;
+    background: transparent;
+    border-radius: 0;
+    padding: 15px 20px;
+    margin-bottom: 35px;
+}
+
+.intro-copy {
+    text-align: left;
+}
+
+.philosophy-panel {
+    background: #E8EBDD;
+    border-radius: 25px;
+    padding: 35px 30px;
+    text-align: center;
+}
+
+.philosophy-panel h3 {
+    font-family: 'Bookman Old Style', serif;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.philosophy-panel h4 {
+    font-family: 'Bookman Old Style', serif;
+    font-size: 1.7rem;
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.philosophy-panel p {
+    line-height: 1.7;
+}
+
+/* MOBILE LAYOUT */
+
+@media (max-width: 700px) {
+    .intro-layout {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+}
     </style>
 </head>
 
