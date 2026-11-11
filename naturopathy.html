@@ -83,6 +83,22 @@ section p {
     border-radius: 20px;
     box-sizing: border-box;
 } 
+     .overview-content {
+    display: grid;
+    grid-template-columns: 1.2fr 0.9fr;
+    gap: 35px;
+    align-items: center;
+}
+
+.overview-content > h2,
+.overview-content > p {
+    grid-column: 1;
+}
+
+.overview-content .philosophy-card {
+    grid-column: 2;
+    grid-row: 1 / span 3;
+}   
        .overview-content h2 {
     margin-top: 0;
 }
@@ -153,6 +169,17 @@ section p {
         and how traditional approaches relate to current scientific
         understanding.
     </p>
+        <div class="philosophy-card">
+    <h3>THE NATUROPATHIC PHILOSOPHY</h3>
+
+    <h2>Treat the whole person.</h2>
+
+    <p>
+        A holistic approach considers the individual as a whole,
+        recognising the relationship between physical health,
+        emotional wellbeing, lifestyle and environment.
+    </p>
+</div>       
            </div>
        </section>
         
