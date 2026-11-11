@@ -114,6 +114,30 @@ section p {
     position: relative;       
     box-sizing: border-box;
 } 
+    
+.philosophy-card::before,
+.philosophy-card::after {
+    content: "";
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    pointer-events: none;
+}
+
+.philosophy-card::before {
+    background-image: url('leaf-top-right.svg');
+    top: -8px;
+    right: -8px;
+}
+
+.philosophy-card::after {
+    background-image: url('leaf-bottom-left.svg');
+    bottom: -12px;
+    left: -8px;
+}
+    
              .section-nav {
             display: flex;
             justify-content: space-around;
