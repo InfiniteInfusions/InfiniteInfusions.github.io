@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Green botanical leaf sprig">
+  <g fill="none" stroke="#71864A" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M82 337 C150 284 206 221 255 151 C287 105 315 64 331 29"/>
+    <path d="M153 276 C132 235 94 211 53 214 C63 252 101 278 153 276Z" fill="#91A85D" stroke-width="3"/>
+    <path d="M153 276 C122 253 91 232 59 218" stroke-width="2"/>
+    <path d="M190 231 C171 187 176 147 207 119 C233 156 229 199 190 231Z" fill="#A7B96F" stroke-width="3"/>
+    <path d="M190 231 C195 190 202 153 207 124" stroke-width="2"/>
+    <path d="M226 185 C222 145 241 109 277 94 C291 137 271 171 226 185Z" fill="#819B50" stroke-width="3"/>
+    <path d="M226 185 C245 151 262 122 274 99" stroke-width="2"/>
+    <path d="M258 139 C261 99 286 69 324 61 C329 104 304 133 258 139Z" fill="#A8B96E" stroke-width="3"/>
+    <path d="M258 139 C283 111 304 84 320 65" stroke-width="2"/>
+    <path d="M116 308 C89 276 52 265 20 278 C39 315 75 329 116 308Z" fill="#A5B66D" stroke-width="3"/>
+    <path d="M116 308 C82 292 52 283 25 280" stroke-width="2"/>
+    <path d="M294 87 C292 51 309 22 342 9 C353 45 335 75 294 87Z" fill="#91A85D" stroke-width="3"/>
+    <path d="M294 87 C314 58 330 33 339 13" stroke-width="2"/>
+  </g>
+</svg>
