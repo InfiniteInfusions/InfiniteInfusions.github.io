@@ -167,7 +167,63 @@ section p {
 
         html {
             scroll-behavior: smooth;
-        }   
+        }  
+        
+/* MOBILE LAYOUT - NATUROPATHY PAGE */
+
+@media (max-width: 700px) {
+
+    main {
+        padding: 20px 12px 40px;
+    }
+
+    section {
+        padding: 22px 16px;
+        margin-bottom: 20px;
+    }
+
+    .overview-content {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 15px;
+        padding: 20px 16px;
+    }
+
+    .overview-content > h2,
+    .overview-content > p,
+    .overview-content .philosophy-card {
+        grid-column: 1;
+        grid-row: auto;
+    }
+
+    .philosophy-card {
+        padding: 30px 22px;
+        margin-top: 10px;
+    }
+
+    .philosophy-card::before,
+    .philosophy-card::after {
+        width: 75px;
+        height: 75px;
+    }
+
+    .section-nav {
+        padding: 10px;
+        gap: 5px;
+    }
+
+    .section-nav a {
+        flex: 1 1 28%;
+        font-size: 0.85rem;
+        padding: 10px 4px;
+    }
+
+    section h2 {
+        font-size: 1.6rem;
+    }
+
+}
+
     </style>
 </head>
 
