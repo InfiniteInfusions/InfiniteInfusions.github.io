@@ -343,6 +343,88 @@ section p {
     margin: 0 0 20px;
 }
  
+/* FIBRE AND GUT TWO-CARD LAYOUT */
+
+.two-topic-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 25px;
+    max-width: 1100px;
+    margin: 35px auto;
+    align-items: stretch;
+}
+
+.two-topic-grid > section {
+    background: #FFFDF8;
+    border-radius: 20px;
+    padding: 28px;
+    margin: 0;
+    min-width: 0;
+}
+
+.two-topic-grid img.section-illustration {
+    display: block;
+    width: 100%;
+    max-width: none;
+    height: auto;
+    object-fit: contain;
+    border-radius: 10px;
+    margin: 0 0 20px;
+}
+
+.two-topic-grid h3 {
+    font-family: 'Bookman Old Style', serif;
+    font-size: 1.6rem;
+    color: #364A3F;
+    margin: 0 0 18px;
+}
+
+/* SUPPORTING DIGESTIVE WELLBEING CARD */
+
+.wellbeing-section {
+    background: #FFFDF8;
+    border-radius: 20px;
+    padding: 35px;
+    margin: 35px auto;
+    max-width: 1100px;
+    text-align: left;
+}
+
+.wellbeing-section img.section-illustration {
+    display: block;
+    width: 100%;
+    max-width: 560px;
+    height: auto;
+    object-fit: contain;
+    margin: 0 auto 25px;
+    border-radius: 10px;
+}
+
+.wellbeing-section h3 {
+    font-family: 'Bookman Old Style', serif;
+    font-size: 1.6rem;
+    color: #364A3F;
+    margin: 0 0 18px;
+}
+
+/* MOBILE LAYOUT */
+
+@media (max-width: 700px) {
+
+    .two-topic-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .two-topic-grid > section {
+        padding: 22px 18px;
+    }
+
+    .wellbeing-section {
+        padding: 22px 18px;
+    }
+}
+
     </style>
 </head>
 
@@ -457,6 +539,9 @@ section p {
        
          </section>
         </div>
+    
+<div class="two-topic-grid">
+
         <section class="fibre-section">
             
 <img src="fibre.jpeg" class="section-illustration" alt="Oats and seeds illustrating dietary fibre">
@@ -466,6 +551,10 @@ section p {
     <p>Dietary fibre is found in plant foods and supports digestive health in several ways. Some types of fibre help add bulk to stools, while others can be fermented by gut microorganisms. Certain fibres can also help support regular bowel movements and contribute to healthy cholesterol levels.</p>
 
     <p>Increasing fibre gradually, drinking sufficient fluids and remaining physically active can help support bowel regularity. A sudden increase in fibre may cause bloating or discomfort, so changes are best introduced at a comfortable pace.</p>
+
+</section>
+
+<section class="gut-section">
 
 <img src="gut.jpeg" class="section-illustration" alt="Peaceful garden tea setting illustrating emotional wellbeing">
 
@@ -478,7 +567,12 @@ section p {
     <p>This relationship is not simply a matter of emotions causing physical symptoms. Both psychological and physical factors can contribute, and ongoing digestive problems deserve appropriate assessment rather than being dismissed as stress alone.</p>
 
                           </section>
-         <section class="topic-card">
+    
+</div>
+
+         
+<section class="topic-card wellbeing-section">
+
             
 <img src="digestive.jpeg" class="section-illustration" alt="Nutritious food illustrating digestive wellbeing">
  
